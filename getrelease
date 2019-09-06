@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sccs get record.h
+sccs get -r2.2 menuoptions.h
+sccs get menuoptions.cpp
+sccs get llist.h
+sccs get llist.cpp
+sccs get llist_debug.cpp
+sccs get main.cpp
+sccs get -r2.3 Makefile
+
